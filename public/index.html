@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieSync 🍿</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Video Section -->
+        <div class="video-container">
+            <div class="loader"></div>
+            <iframe 
+                id="videoPlayer" 
+                src="" 
+                frameborder="0" 
+                allowfullscreen
+                allow="autoplay; encrypted-media"
+            ></iframe>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <input type="text" id="videoUrl" placeholder="Paste Google Drive/Dailymotion URL">
+            <button onclick="loadVideo()"><i class="fas fa-play"></i> Play</button>
+        </div>
+
+        <!-- Chat Section -->
+        <div class="chat-container">
+            <div class="chat-header">
+                <h3>Chat 💬</h3>
+                <div class="online-counter">👥 <span id="usersCount">0</span></div>
+            </div>
+            <div id="messages"></div>
+            <div class="message-input">
+                <input type="text" id="messageInput" placeholder="Type message...">
+                <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
