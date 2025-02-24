@@ -1,5 +1,3 @@
-Here’s a detailed **README.md** for your GitHub repository. It includes instructions, images, demo links, hosting options, and pros/cons.
-
 ---
 
 # **MovieSync 🍿**
