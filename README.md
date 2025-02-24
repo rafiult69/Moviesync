@@ -102,6 +102,7 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ## **License**
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ---
 
 Enjoy your movie nights with **MovieSync**! 🎬✨
